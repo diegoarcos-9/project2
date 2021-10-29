@@ -1,0 +1,27 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/style.css -o ./public/style.css",
+    "prod": "NODE_ENV=production postcss ./src/style.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoarcos-9/project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoarcos-9/project2/issues"
+  },
+  "homepage": "https://github.com/diegoarcos-9/project2#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
