@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
+
+/* C and = */
+.btn-1{
+    @apply col-span-2 bg-blue-500 hover:bg-blue-400 rounded-full p-5;
+}
+
+/* Operator */
+.btn-2{
+    @apply bg-purple-500 hover:bg-purple-400 rounded-full p-5;
+}
+
+/* Numbers */
+.btn-3{
+    @apply bg-gray-500 hover:bg-gray-400 rounded-full p-5
+}
 @tailwind utilities;

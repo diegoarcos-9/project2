@@ -11,8 +11,39 @@
     <title>Project2</title>
 </head>
 <body>
-    <div class=" border-4">
-        <h1 class="text-red-300 font-fraucens">Hola soy Tailwind</h1>
+    <div class="min-h-screen bg-gray-700 flex items-center justify-center">
+       <!-- Calculator goes here -->
+       <div class="bg-gray-800 border-2 border-gray-900 shadow-2xl rounded-lg">
+           <!-- Forms goes here -->
+           <form class="border b-2 border-gray-900">
+               <input type="number" class="bg-transparent p-8 outline-none focus:bg-gray-700 text-3xl text-right text-white font-fraucens">
+           </form>
+           <!-- Buttons go here -->
+           <div class="p-6 text-white grid grid-cols-4 gap-5 text-xl">
+               <button class="btn-1">C</button>
+               <button class="btn-2">&larr;</button>
+               <button class="btn-2">&divide;</button>
+
+               <button class="btn-3">7</button>
+               <button class="btn-3">8</button>
+               <button class="btn-3">9</button>
+               <button class="btn-2">&times;</button>
+
+               <button class="btn-3">4</button>
+               <button class="btn-3">5</button>
+               <button class="btn-3">6</button>
+               <button class="btn-2">-</button>
+
+               <button class="btn-3">1</button>
+               <button class="btn-3">2</button>
+               <button class="btn-3">3</button>
+               <button class="btn-2">+</button>
+
+               <button class="btn-3">0</button>
+               <button class="btn-3">.</button>
+               <button class="col-span-2 btn-1">=</button>
+           </div>
+       </div>
     </div>
 
     <script src="./app.js"></script>
