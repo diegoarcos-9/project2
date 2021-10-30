@@ -1,18 +1,24 @@
 @tailwind base;
 @tailwind components;
 
+/* Div Screen Calculator */
+
+.input1{
+    @apply bg-transparent p-4 outline-none focus:bg-gray-700 text-3xl text-right text-white font-fraucens;
+}
+
 /* C and = */
 .btn-1{
-    @apply col-span-2 bg-blue-500 hover:bg-blue-400 rounded-full p-5;
+    @apply col-span-2 bg-blue-500 hover:bg-blue-400 rounded-full p-4;
 }
 
 /* Operator */
 .btn-2{
-    @apply bg-purple-500 hover:bg-purple-400 rounded-full p-5;
+    @apply bg-purple-500 hover:bg-purple-400 rounded-full p-4;
 }
 
 /* Numbers */
 .btn-3{
-    @apply bg-gray-500 hover:bg-gray-400 rounded-full p-5
+    @apply bg-gray-500 hover:bg-gray-400 rounded-full p-4
 }
 @tailwind utilities;

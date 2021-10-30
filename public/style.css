@@ -609,6 +609,29 @@ video {
   }
 }
 
+/* Div Screen Calculator */
+
+.input1{
+  background-color: transparent;
+}
+
+.input1:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+}
+
+.input1 {
+  padding: 1rem;
+  text-align: right;
+  font-family: 'fraucens', serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 /* C and = */
 
 .btn-1{
@@ -624,7 +647,7 @@ video {
 }
 
 .btn-1 {
-  padding: 1.25rem;
+  padding: 1rem;
 }
 
 /* Operator */
@@ -641,7 +664,7 @@ video {
 }
 
 .btn-2 {
-  padding: 1.25rem;
+  padding: 1rem;
 }
 
 /* Numbers */
@@ -658,7 +681,7 @@ video {
 }
 
 .btn-3 {
-  padding: 1.25rem;
+  padding: 1rem;
 }
 
 .sr-only {
